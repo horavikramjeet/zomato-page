@@ -1,0 +1,460 @@
+*{
+    font-family: Poppins;
+    
+}
+header{
+    background-color: #ce0505;
+    height: 80px;
+    position: relative;
+}
+.logo{
+    color: #ce0505;
+    text-decoration: none;
+    font-size:25px ;
+    font-weight: 600px;
+}
+.Logo-Background{
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px 18px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.login-row{
+    position: absolute;
+    right: 10%;
+    top: 28px;
+    word-spacing: 10px;
+    
+}
+.login{
+    color: white;
+    text-decoration: none;
+    
+}
+.create-an-account{
+    color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 9px 9px;
+    word-spacing: normal;
+}
+section{
+    position: relative;
+    padding: 20px 50px;
+}
+.title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #192F60;
+    margin-bottom: 22px;
+}
+.filter{
+    top: 195px;
+left: 113px;
+width: 260px;
+height: 682px;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.result1{
+width: 794px;
+height: 291px;
+position: absolute;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+position: absolute;
+top: 94px;
+left: 350px;
+}
+.result2{
+   width: 794px;
+   height: 291px;
+   position: absolute;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px #00000029;
+   opacity: 1;
+   position: absolute;
+   top: 400px;
+   left: 350px;
+   }
+   .pagination{
+    position: absolute;
+    right: 35%;
+    margin-top: -40px;
+   }
+   .pagination a{
+    border: 2px solid #8C96AB;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-size: 20px;
+    margin :0 5px;
+    color: #8C96AB;;
+    
+
+   }
+ .img1{
+    margin: 18px  15PX ;
+    border-radius: 12px;
+    width:  95px;
+    height: 95px;
+
+    
+ }
+ .resturant-name{
+    font-size: 25px;
+    font-weight: bold;
+     position: absolute;
+     margin-top: 35px;
+     margin-left: 20px;
+ }
+ .Fort{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ .Address{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 16px;
+   color: #8C96AB;
+    
+ }
+ .line{
+    width: 630px;
+    margin-left: 10%;
+    border: 1px solid;
+     color: #00000029;
+ }
+ .cuisine{
+    margin-top: 7%;
+    margin-left: 4%;
+    letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+ }
+ .COST-FOR-TWO{
+    margin-top: 1%;
+    margin-left: 4%;
+    letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+ }
+ .Bakery{
+    margin-left:13%; 
+    letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+font-size: 20px;
+ }
+ .Price{
+    margin-left:7%; 
+    letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+font-size: 20px;
+ }
+.filters{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #192F60;
+    top: 90px;
+    position: absolute;
+}
+.Select-location{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #192F60;
+    top: 120px;
+    position: absolute;
+}
+.Select-location-box{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #192F60;
+    top: 150px;
+    position: absolute;
+    border: 2px solid #8C96AB;;
+    padding: 4px 91px 4px 12px;
+    border-radius: 3px;
+    color: #8C96AB;;
+}
+.Cuisines-opition{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #192F60;
+    top: 205px;
+    position: absolute;
+}
+.Cuisines-List{
+    
+    font-size: 16px;
+    color: #8C96AB;
+    top: 220px;
+    position: absolute;
+    text-decoration: none;
+    left: 30px;
+}
+input{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+ li{
+  list-style: none;  
+}
+.Cost-Opition{
+    margin-left: 20px;
+    font-size: 16px;
+    color:#192F60;
+    top: 390px;
+    position: absolute;
+} 
+
+.cost-list{
+    font-size: 16px;
+    color: #8C96AB;
+    top: 400px;
+    position: absolute;
+    text-decoration: none;
+    left: 30px;
+}
+.Sort{
+    margin-left: 20px;
+    font-size: 16px;
+    color:#192F60 ;
+    top: 590px;
+    position: absolute;
+}
+.Sort-option{
+    font-size: 16px;
+    color: #8C96AB;
+    top: 610px;
+    position: absolute;
+    text-decoration: none;
+    left: 30px;
+}  
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    
+    header{
+        background-color: #ce0505;
+        height: 90px;
+        width: 800px;
+    } 
+    .title{
+        font-weight: 600;
+        font-size: 25px;
+        width: 400px;
+        color: #192F60;
+        margin-bottom: 22px;
+    }
+    .result1{
+        width: 690px;
+        height: 350px;
+        position: absolute;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 6px #00000029;
+        opacity: 1;
+        position: relative;
+        top: 45px;
+        left: 10px;
+        }
+    
+        .result2{
+            width: 690px;
+            height: 350px;
+            position: absolute;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+            position: relative;
+            top: 100px;
+            left: 10px;
+            }
+            .pagination{
+                position: relative;
+                left: 50%;
+                margin-top: 120px;
+               }
+               .COST-FOR-TWO{
+                margin-top: -10px;
+                margin-left: 4%;
+                letter-spacing: 0px;
+            color: #636F88;
+            opacity: 1;
+            font-size: 30px;
+             }
+             .Price{
+                margin-left:7%; 
+                letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+            font-size: 30px;
+             }
+             .cuisine{
+                margin-top: 3%;
+                margin-left: 4%;
+                letter-spacing: 0px;
+            color: #636F88;
+            opacity: 1;
+            font-size: 30px;
+             }
+             .Bakery{
+                margin-left:13%; 
+                letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+            font-size: 30px;
+             }
+             .Fort{
+                position: absolute;
+                margin-left: 20px;
+                margin-top: 70px;
+                font-size: 26px;
+                font-weight: 600;
+             }
+             .Address{
+                position: absolute;
+                margin-left: 20px;
+                margin-top: 100px;
+                font-size: 26px;
+               color: #8C96AB;
+                
+             }
+             .resturant-name{
+                font-size: 30px;
+                font-weight: 400px;
+                 position: absolute;
+                 margin-top: 35px;
+                 margin-left: 20px;
+             }
+            .img1{
+                margin: 18px  15PX ;
+                border-radius: 12px;
+                width:  118px;
+                height: 118px;
+            
+                
+             }
+             .filter{
+                top: 195px;
+            left: 113px;
+            width: 570px;
+            height: 640px;
+             background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+            }
+            .filters{
+                margin-left: 20px;
+                font-size: 30px;
+                color: #192F60;
+                top: 90px;
+                position: absolute;
+            }
+      .Select-location{
+        margin-left: 20px;
+        font-size: 20px;
+        color: #192F60;
+        top: 120px;
+        position: absolute;
+    }
+    .Select-location-box{
+        margin-left: 20px;
+        font-size: 20px;
+        color: #192F60;
+        top: 150px;
+        position: absolute;
+        border: 2px solid #8C96AB;;
+        padding: 4px 91px 4px 12px;
+        border-radius: 3px;
+        color: #8C96AB;;
+    }
+    .Cuisines-opition{
+        margin-left: 20px;
+        font-size: 20px;
+        color: #192F60;
+        top: 205px;
+        position: absolute;
+    }
+    .Cost-Opition{
+        margin-left: 20px;
+        font-size: 20px;
+        color:#192F60;
+        top: 390px;
+        position: absolute;
+    } 
+    
+    .cost-list{
+        font-size: 20px;
+        color: #8C96AB;
+        top: 400px;
+        position: absolute;
+        text-decoration: none;
+        left: 30px;
+    }
+    .Sort{
+        margin-left: 20px;
+        font-size: 20px;
+        color:#192F60 ;
+        top: 583px;
+        position: absolute;
+    }
+    .Sort-option{
+        font-size: 20px;
+        color: #8C96AB;
+        top: 590px;
+        position: absolute;
+        text-decoration: none;
+        left: 30px;
+    }  
+    .line{
+        width: 530px;
+        margin-left: 5%;
+        border: 1px solid;
+         color: #00000029;
+     }
+     .pagination a{
+        border: 2px solid #8C96AB;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 5px 5px;
+        font-size: 40px;
+        margin :0 5px;
+        color: #8C96AB;
+        
+    
+       }
+       .logo{
+        color: #ce0505;
+        text-decoration: none;
+        font-size:35px ;
+        font-weight: 600px;
+    }
+    .login{
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        
+    }
+    .create-an-account{
+        color:white;
+        text-decoration: none;
+        border: 1.5px solid white;
+        padding: 9px 9px;
+        word-spacing: normal;
+        font-size: 24px;
+    }            
+  }
+  
+  
+
+    
+
